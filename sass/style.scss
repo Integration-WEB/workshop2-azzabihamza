@@ -33,3 +33,39 @@ body{
     }
 }
 
+.btn{
+    background: $primary-color;
+    border-radius: 5px;
+    @if lightness($primary-color) > 50%{
+        color: #ffb60b;
+    }@else{
+        color: #ff1f17;
+    }
+}
+
+// workshop 2 SCSS
+
+.text{    
+    color: background(white);
+    font-size: 20px;
+}
+textarea{
+    @extend .text;
+}
+h1{
+    @extend .text;
+}
+@mixin border($color, $width){
+    border: solid $width $color;
+}
+.btn{
+    @include border(yellow, 2px);
+}
+@function background($background-color){
+    @if $background-color != 'white'{
+        @return white;
+    }@else{
+        @return black;
+    }
+}
+

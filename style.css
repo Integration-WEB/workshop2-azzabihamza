@@ -32,4 +32,19 @@ body {
   margin: 0 0.75em;
 }
 
+.btn {
+  background: #ff752f;
+  border-radius: 5px;
+  color: #ffb60b;
+}
+
+.text, h1, textarea {
+  color: background(white);
+  font-size: 20px;
+}
+
+.btn {
+  border: solid 2px yellow;
+}
+
 /*# sourceMappingURL=style.css.map */
