@@ -68,4 +68,15 @@ h1{
         @return black;
     }
 }
+$langages : "HTML5","CSS3","JAVA","react";
 
+@function first($list){
+    @return nth($list,1);
+}
+
+@function last($list){
+    @return nth($list,length($list));
+}
+.langages{
+    content: last($langages);
+}
