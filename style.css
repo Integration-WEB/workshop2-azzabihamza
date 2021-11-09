@@ -1,0 +1,35 @@
+body {
+  color: #ff752f;
+}
+
+.button, .button-alert a {
+  display: inline-block;
+  color: #ff752f;
+  text-align: center;
+  border: solid 2px #ff752f;
+}
+
+.button-alert a {
+  border-radius: 4px;
+}
+
+#box {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.m-1 {
+  margin: 0 0.25em;
+}
+
+.m-2 {
+  margin: 0 0.5em;
+}
+
+.m-3 {
+  margin: 0 0.75em;
+}
+
+/*# sourceMappingURL=style.css.map */
